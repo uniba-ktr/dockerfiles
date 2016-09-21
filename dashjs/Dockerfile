@@ -1,9 +1,9 @@
 FROM google/nodejs
 MAINTAINER Marcel Grossmann <whatever4711@gmail.com>
 
+WORKDIR /app
 RUN apt-get update && apt-get install unzip
-ADD https://github.com/Dash-Industry-Forum/dash.js/archive/v1.3.0.zip \
-/v1.3.0.zip
+ADD https://github.com/Dash-Industry-Forum/dash.js/archive/v1.3.0.zip v1.3.0.zip
 
 RUN unzip v1.3.0.zip
 
