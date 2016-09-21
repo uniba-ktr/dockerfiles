@@ -7,7 +7,7 @@ ADD https://github.com/Dash-Industry-Forum/dash.js/archive/v1.3.0.zip v1.3.0.zip
 
 RUN unzip v1.3.0.zip
 
-WORKDIR /dash.js-1.3.0
+WORKDIR /app/dash.js-1.3.0
 
 RUN npm install -g grunt-cli
 RUN npm install grunt-template-jasmine-istanbul --save-dev
