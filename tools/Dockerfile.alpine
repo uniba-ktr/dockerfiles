@@ -1,5 +1,6 @@
 FROM alpine:3.4
 MAINTAINER Marcel Grossmann <whatever4711@gmail.com>
+LABEL architecture="amd64"
 
 RUN apk add -U --no-cache \
   drill \
