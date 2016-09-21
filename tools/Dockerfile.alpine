@@ -1,0 +1,9 @@
+FROM alpine:3.4
+MAINTAINER Marcel Grossmann <whatever4711@gmail.com>
+
+RUN apk add -U --no-cache \
+  drill \
+  curl \
+  net-tools \
+  tcpdump \
+  tcpflow
