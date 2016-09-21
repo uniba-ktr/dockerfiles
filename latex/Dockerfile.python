@@ -1,5 +1,6 @@
 FROM python:slim
 MAINTAINER Marcel Grossmann <whatever4711@gmail.com>
+LABEL architecture="amd64"
 
 ENV dir /pytex
 RUN apt-get update && \

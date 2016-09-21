@@ -1,5 +1,6 @@
 FROM ubuntu:xenial
 MAINTAINER Marcel Grossmann <whatever4711@gmail.com>
+LABEL architecture="amd64"
 
 ENV dir /src
 RUN apt-get update && \

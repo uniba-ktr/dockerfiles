@@ -1,5 +1,6 @@
 FROM opendaylight/odl:4.2.0
 MAINTAINER Marcel Grossmann <whatever4711@gmail.com>
+LABEL architecture="amd64"
 
 # Need to install feature:install odl-restconf odl-l2switch-switch odl-mdsal-apidocs odl-dlux-core
 WORKDIR /opt/opendaylight

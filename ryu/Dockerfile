@@ -1,5 +1,6 @@
 FROM python:alpine
 MAINTAINER Marcel Grossmann <whatever4711@gmail.com>
+LABEL architecture="amd64"
 
 RUN apk add --update git gcc musl-dev
 RUN git clone git://github.com/osrg/ryu.git

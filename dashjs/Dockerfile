@@ -1,5 +1,6 @@
 FROM google/nodejs
 MAINTAINER Marcel Grossmann <whatever4711@gmail.com>
+LABEL architecture="amd64"
 
 WORKDIR /app
 RUN apt-get update && apt-get install unzip
