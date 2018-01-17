@@ -16,6 +16,7 @@ RUN apt-get update && \
     texlive-fonts-extra \
     texlive-generic-extra \
     texlive-xetex \
+    texlive-luatex \
     texlive-publishers \
     texlive-science && \
     apt-get clean && \
