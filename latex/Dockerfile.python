@@ -13,6 +13,8 @@ RUN apt-get update && \
     texlive-math-extra \
     texlive-fonts-extra \
     texlive-generic-extra \
+    texlive-publishers \
     texlive-science && \
+    pip install Pygments && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
